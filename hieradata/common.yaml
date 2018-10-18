@@ -1,6 +1,7 @@
 hello : "world"
+graphite::gr_django_init_command: bash -c 'PYTHONPATH=/opt/graphite/webapp django-admin.py migrate --settings=graphite.settings --run-syncdb'
 graphite::gr_carbon_ver: '1.1.2'
-graphite::gr_django_ver: '1.9'
+graphite::gr_django_ver: '1.11'
 graphite::gr_django_tagging_ver: '0.4.6'
 graphite::gr_whisper_ver : "1.0.2"
 graphite::gr_carbon_ver : "1.0.2"
