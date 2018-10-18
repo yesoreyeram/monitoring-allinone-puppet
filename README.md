@@ -1,0 +1,1 @@
+# monitoring-allinone-puppet
