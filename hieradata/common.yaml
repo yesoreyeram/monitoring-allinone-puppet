@@ -1,4 +1,7 @@
 hello : "world"
+graphite::gr_whisper_ver : "1.0.2"
+graphite::gr_carbon_ver : "1.0.2"
+graphite::gr_graphite_ver : "1.0.2"
 graphite::gr_web_server : "nginx"
 graphite::gr_web_server_port : 8888
 graphite::gr_timezone : "Europe/London"
