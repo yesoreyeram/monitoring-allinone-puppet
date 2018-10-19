@@ -3,9 +3,6 @@ forge "https://forge.puppet.com"
 mod 'puppetlabs-stdlib', '4.25.1'
 mod 'puppet-selinux', '1.6.1'
 mod 'dwerder-graphite', '7.3.0'
-<<<<<<< HEAD
-mod 'puppet-nginx', '0.14.0'
-=======
 
 mod 'puppet-archive',                    "2.3.0"
 mod 'mvisonneau-curator',
@@ -35,4 +32,3 @@ mod "saz-sudo",                          "3.1.0"
 mod "saz-timezone",                      "3.3.0"
 mod "stahnma-epel",                      "1.2.2"
 mod "thias-sysctl",                      "1.0.6"
->>>>>>> 817fe668dcb1354ed82c720cfe19391b0a997468
