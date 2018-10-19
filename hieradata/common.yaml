@@ -5,5 +5,7 @@ graphite::gr_whisper_ver : "1.0.2"
 graphite::gr_carbon_ver : "1.0.2"
 graphite::gr_graphite_ver : "1.0.2"
 graphite::gr_web_server : "wsgionly"
+graphite::gr_web_user : "nginx"
+graphite::gr_web_group : "nginx"
 graphite::gr_web_server_port : 8888
 graphite::gr_timezone : "Europe/London"
