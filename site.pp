@@ -1,6 +1,6 @@
 node default {
 
-  ensure_packages(['MySQL-python','pyOpenSSL','python-ldap','python-memcached','python-psycopg2','python-zope-interface','python-sqlite3dbm', 'dejavu-fonts-common', 'dejavu-sans-fonts', 'python-cairocffi','python2-crypto'])
+  ensure_packages(['MySQL-python','pyOpenSSL','python-ldap','python-memcached','python-psycopg2','python-zope-interface','python-tzlocal','python-sqlite3dbm', 'dejavu-fonts-common', 'dejavu-sans-fonts', 'python-cairocffi','python2-crypto'])
 
   selinux::boolean{ 'httpd_can_network_connect':
     ensure => 'on',
